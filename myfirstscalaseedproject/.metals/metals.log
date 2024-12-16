@@ -1,0 +1,284 @@
+2024.12.14 11:51:07 INFO  Started: Metals version 1.4.1 in folders '/Users/Maddy/repos/scala/myfirstscalaseedproject' for client Visual Studio Code 1.95.3.
+2024.12.14 11:51:07 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.14 11:51:17 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kd/hk47t_7j5bbf3f6_8y2_j07w0000gp/T/metals17574175142670652097/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.14 11:51:17 WARN  no build target for: /Users/Maddy/repos/scala/myfirstscalaseedproject/project/project/metals.sbt
+2024.12.14 11:51:17 WARN  no build target for: /Users/Maddy/repos/scala/myfirstscalaseedproject/project/metals.sbt
+2024.12.14 11:51:17 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.14 11:51:18 INFO  [info] welcome to sbt 1.10.6 (Oracle Corporation Java 19.0.1)
+2024.12.14 11:51:18 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.14 11:51:19 INFO  [info] loading settings for project myfirstscalaseedproject-build-build from metals.sbt...
+2024.12.14 11:51:19 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project/project
+2024.12.14 11:51:21 INFO  [info] loading settings for project myfirstscalaseedproject-build from metals.sbt...
+2024.12.14 11:51:21 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project
+2024.12.14 11:51:23 INFO  [success] Generated .bloop/myfirstscalaseedproject-build.json
+2024.12.14 11:51:23 INFO  [info] compiling 1 Scala source to /Users/Maddy/repos/scala/myfirstscalaseedproject/project/target/scala-2.12/sbt-1.0/classes ...
+2024.12.14 11:51:23 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...
+2024.12.14 11:51:26 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.14 11:51:26 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.14 11:51:28 INFO  [info]   Compilation completed in 4.821s.
+2024.12.14 11:51:28 INFO  [info] done compiling
+2024.12.14 11:51:28 INFO  [success] Total time: 8 s, completed Dec 14, 2024, 11:51:29 AM
+2024.12.14 11:51:29 INFO  [info] loading settings for project root from build.sbt...
+2024.12.14 11:51:29 INFO  [info] set current project to myFirstScalaSeedProject (in build file:/Users/Maddy/repos/scala/myfirstscalaseedproject/)
+2024.12.14 11:51:33 INFO  [success] Generated .bloop/root.json
+2024.12.14 11:51:33 INFO  [success] Generated .bloop/root-test.json
+2024.12.14 11:51:33 INFO  [success] Total time: 3 s, completed Dec 14, 2024, 11:51:33 AM
+2024.12.14 11:51:33 INFO  time: ran 'sbt bloopInstall' in 15s
+2024.12.14 11:51:33 INFO  Attempting to connect to the build server...
+2024.12.14 11:51:33 INFO  No running Bloop server found, starting one.
+2024.12.14 11:51:40 INFO  Starting compilation server
+2024.12.14 11:51:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:51:43 INFO  Attempting to connect to the build server...
+2024.12.14 11:51:43 INFO  Found a Bloop server running
+2024.12.14 11:51:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/project/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:51:45 INFO  time: Connected to build server in 12s
+2024.12.14 11:51:45 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 11:51:45 INFO  running doctor check
+2024.12.14 11:51:45 INFO  java targets: myfirstscalaseedproject-build, root-test, root
+2024.12.14 11:51:50 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.14 11:51:59 INFO  time: indexed workspace in 13s
+2024.12.14 11:52:00 INFO  compiling myfirstscalaseedproject-build (1 scala source)
+2024.12.14 11:52:00 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...
+2024.12.14 11:52:05 INFO  Compilation completed in 4.692s.
+2024.12.14 11:52:06 INFO  time: compiled myfirstscalaseedproject-build in 6.64s
+2024.12.14 11:52:32 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kd/hk47t_7j5bbf3f6_8y2_j07w0000gp/T/metals8491823460614071625/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.14 11:52:32 INFO  [info] welcome to sbt 1.10.6 (Oracle Corporation Java 19.0.1)
+2024.12.14 11:52:32 INFO  [info] loading settings for project myfirstscalaseedproject-build-build from metals.sbt...
+2024.12.14 11:52:32 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project/project
+2024.12.14 11:52:34 INFO  [info] loading settings for project myfirstscalaseedproject-build from metals.sbt...
+2024.12.14 11:52:34 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project
+2024.12.14 11:52:34 INFO  [success] Generated .bloop/myfirstscalaseedproject-build.json
+2024.12.14 11:52:35 INFO  [success] Total time: 1 s, completed Dec 14, 2024, 11:52:35 AM
+2024.12.14 11:52:35 INFO  [info] loading settings for project root from build.sbt...
+2024.12.14 11:52:36 INFO  [info] set current project to myFirstScalaSeedProject (in build file:/Users/Maddy/repos/scala/myfirstscalaseedproject/)
+2024.12.14 11:53:03 INFO  [success] Generated .bloop/root.json
+2024.12.14 11:53:03 INFO  [success] Generated .bloop/root-test.json
+2024.12.14 11:53:03 INFO  [success] Total time: 27 s, completed Dec 14, 2024, 11:53:03 AM
+2024.12.14 11:53:03 INFO  time: ran 'sbt bloopInstall' in 30s
+2024.12.14 11:53:03 INFO  Disconnecting from Bloop session...
+2024.12.14 11:53:03 INFO  Shut down connection with build server.
+2024.12.14 11:53:03 INFO  Shut down connection with build server.
+2024.12.14 11:53:03 INFO  Attempting to connect to the build server...
+2024.12.14 11:53:03 INFO  Found a Bloop server running
+2024.12.14 11:53:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:53:03 INFO  Attempting to connect to the build server...
+2024.12.14 11:53:03 INFO  Found a Bloop server running
+2024.12.14 11:53:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/project/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:53:03 INFO  time: Connected to build server in 0.24s
+2024.12.14 11:53:03 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 11:53:03 INFO  running doctor check
+2024.12.14 11:53:03 INFO  java targets: myfirstscalaseedproject-build, root-test, root
+2024.12.14 11:53:13 INFO  time: indexed workspace in 9.9s
+2024.12.14 11:53:20 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:53:20 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:53:27 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:53:27 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:53:28 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:54:28 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:54:29 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+Dec 14, 2024 11:54:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.12.14 11:55:53 INFO  compiling root (1 scala source)
+2024.12.14 11:55:54 INFO  compiling root-test (1 scala source)
+2024.12.14 11:55:54 INFO  time: compiled root in 1.56s
+2024.12.14 11:55:54 INFO  time: compiled root-test in 0.33s
+2024.12.14 11:57:18 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/WordCount.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 11:57:18 INFO  compiling root (1 scala source)
+2024.12.14 11:57:18 INFO  time: compiled root in 0.33s
+2024.12.14 11:57:59 INFO  compiling root (1 scala source)
+2024.12.14 11:57:59 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.14 11:57:59 INFO  time: compiled root in 0.75s
+2024.12.14 11:58:23 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kd/hk47t_7j5bbf3f6_8y2_j07w0000gp/T/metals4171532946176018033/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.14 11:58:24 INFO  [info] welcome to sbt 1.10.6 (Oracle Corporation Java 19.0.1)
+2024.12.14 11:58:24 INFO  [info] loading settings for project myfirstscalaseedproject-build-build from metals.sbt...
+2024.12.14 11:58:24 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project/project
+2024.12.14 11:58:25 INFO  [info] loading settings for project myfirstscalaseedproject-build from metals.sbt...
+2024.12.14 11:58:25 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project
+2024.12.14 11:58:25 INFO  [success] Generated .bloop/myfirstscalaseedproject-build.json
+2024.12.14 11:58:26 INFO  [success] Total time: 1 s, completed Dec 14, 2024, 11:58:26 AM
+2024.12.14 11:58:26 INFO  [info] loading settings for project root from build.sbt...
+2024.12.14 11:58:26 INFO  [info] set current project to myFirstScalaSeedProject (in build file:/Users/Maddy/repos/scala/myfirstscalaseedproject/)
+2024.12.14 11:58:26 INFO  [success] Generated .bloop/root.json
+2024.12.14 11:58:26 INFO  [success] Generated .bloop/root-test.json
+2024.12.14 11:58:26 INFO  [success] Total time: 0 s, completed Dec 14, 2024, 11:58:27 AM
+2024.12.14 11:58:27 INFO  time: ran 'sbt bloopInstall' in 3.62s
+2024.12.14 11:58:27 INFO  Disconnecting from Bloop session...
+2024.12.14 11:58:27 INFO  Shut down connection with build server.
+2024.12.14 11:58:27 INFO  Shut down connection with build server.
+2024.12.14 11:58:27 INFO  Attempting to connect to the build server...
+2024.12.14 11:58:27 INFO  Found a Bloop server running
+2024.12.14 11:58:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:58:27 INFO  Attempting to connect to the build server...
+2024.12.14 11:58:27 INFO  Found a Bloop server running
+2024.12.14 11:58:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/project/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:58:27 INFO  time: Connected to build server in 0.23s
+2024.12.14 11:58:27 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 11:58:27 INFO  running doctor check
+2024.12.14 11:58:27 INFO  java targets: myfirstscalaseedproject-build, root-test, root
+2024.12.14 11:58:28 INFO  time: indexed workspace in 1.08s
+2024.12.14 11:58:34 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kd/hk47t_7j5bbf3f6_8y2_j07w0000gp/T/metals16230419250818933846/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.14 11:58:35 INFO  [info] welcome to sbt 1.10.6 (Oracle Corporation Java 19.0.1)
+2024.12.14 11:58:35 INFO  [info] loading settings for project myfirstscalaseedproject-build-build from metals.sbt...
+2024.12.14 11:58:35 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project/project
+2024.12.14 11:58:36 INFO  [info] loading settings for project myfirstscalaseedproject-build from metals.sbt...
+2024.12.14 11:58:36 INFO  [info] loading project definition from /Users/Maddy/repos/scala/myfirstscalaseedproject/project
+2024.12.14 11:58:36 INFO  [success] Generated .bloop/myfirstscalaseedproject-build.json
+2024.12.14 11:58:37 INFO  [success] Total time: 1 s, completed Dec 14, 2024, 11:58:37 AM
+2024.12.14 11:58:37 INFO  [info] loading settings for project root from build.sbt...
+2024.12.14 11:58:37 INFO  [info] set current project to myFirstScalaSeedProject (in build file:/Users/Maddy/repos/scala/myfirstscalaseedproject/)
+2024.12.14 11:58:41 INFO  [success] Generated .bloop/root-test.json
+2024.12.14 11:58:41 INFO  [success] Generated .bloop/root.json
+2024.12.14 11:58:41 INFO  [success] Total time: 3 s, completed Dec 14, 2024, 11:58:41 AM
+2024.12.14 11:58:41 INFO  time: ran 'sbt bloopInstall' in 6.82s
+2024.12.14 11:58:41 INFO  Disconnecting from Bloop session...
+2024.12.14 11:58:41 INFO  Shut down connection with build server.
+2024.12.14 11:58:41 INFO  Shut down connection with build server.
+2024.12.14 11:58:41 INFO  Attempting to connect to the build server...
+2024.12.14 11:58:41 INFO  Found a Bloop server running
+2024.12.14 11:58:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:58:41 INFO  Attempting to connect to the build server...
+2024.12.14 11:58:41 INFO  Found a Bloop server running
+2024.12.14 11:58:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/project/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 11:58:41 INFO  time: Connected to build server in 0.23s
+2024.12.14 11:58:41 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 11:58:41 INFO  running doctor check
+2024.12.14 11:58:41 INFO  java targets: myfirstscalaseedproject-build, root-test, root
+2024.12.14 11:58:43 INFO  time: indexed workspace in 2.31s
+2024.12.14 12:00:25 INFO  skipping build import with status 'Installed'
+2024.12.14 12:00:25 INFO  Disconnecting from Bloop session...
+2024.12.14 12:00:25 INFO  Cancelling compilation on Bloop server
+2024.12.14 12:00:25 INFO  Shut down connection with build server.
+2024.12.14 12:00:25 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/Maddy/repos/scala/myfirstscalaseedproject/build.sbt
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1477)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1006)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2024.12.14 12:00:25 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/build.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.12.14 12:00:25 INFO  Shut down connection with build server.
+2024.12.14 12:00:25 INFO  Attempting to connect to the build server...
+2024.12.14 12:00:25 INFO  Found a Bloop server running
+2024.12.14 12:00:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 12:00:25 INFO  Attempting to connect to the build server...
+2024.12.14 12:00:25 INFO  Found a Bloop server running
+2024.12.14 12:00:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/project/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 12:00:25 INFO  time: Connected to build server in 0.22s
+2024.12.14 12:00:25 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 12:00:26 INFO  running doctor check
+2024.12.14 12:00:26 INFO  java targets: myfirstscalaseedproject-build, root-test, root
+2024.12.14 12:00:27 INFO  time: indexed workspace in 1.74s
+2024.12.14 12:00:28 INFO  time: compiled myfirstscalaseedproject-build in 4ms
+Dec 14, 2024 12:00:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.12.14 12:02:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 12:02:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 12:02:40 INFO  Starting debug proxy for [WordCount]
+2024.12.14 12:02:40 INFO  Loaded expression compiler in 297 milliseconds
+2024.12.14 12:02:43 INFO  Loaded all sources and classes in 2 seconds
+2024.12.14 12:02:43 INFO  Initialized Scala 3 decoder in 2 milliseconds
+2024.12.14 12:02:43 INFO  Trying to attach to remote debuggee VM localhost:62196 .
+2024.12.14 12:02:43 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 12:02:45 INFO  Closing debug server tcp://0.0.0.0:62193
+2024.12.14 12:02:45 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 12:03:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 12:03:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 12:03:19 INFO  Starting debug proxy for [WordCount]
+2024.12.14 12:03:19 INFO  Loaded expression compiler in 1 millisecond
+2024.12.14 12:03:22 INFO  Loaded all sources and classes in 2 seconds
+2024.12.14 12:03:22 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2024.12.14 12:03:22 INFO  Trying to attach to remote debuggee VM localhost:62224 .
+2024.12.14 12:03:22 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 12:03:23 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 12:03:23 INFO  Closing debug server tcp://0.0.0.0:62221
+2024.12.14 12:15:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 12:15:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 12:15:47 INFO  Starting debug proxy for [WordCount]
+2024.12.14 12:15:47 INFO  Loaded expression compiler in 0 milliseconds
+2024.12.14 12:15:50 INFO  Loaded all sources and classes in 2 seconds
+2024.12.14 12:15:50 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2024.12.14 12:15:50 INFO  Trying to attach to remote debuggee VM localhost:63412 .
+2024.12.14 12:15:50 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 12:15:52 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 12:15:52 INFO  Closing debug server tcp://0.0.0.0:63409
+2024.12.14 12:16:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 12:16:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 12:16:10 INFO  Starting debug proxy for [WordCount]
+2024.12.14 12:16:10 INFO  Loaded expression compiler in 1 millisecond
+2024.12.14 12:16:12 INFO  Loaded all sources and classes in 2 seconds
+2024.12.14 12:16:12 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2024.12.14 12:16:12 INFO  Trying to attach to remote debuggee VM localhost:63425 .
+2024.12.14 12:16:12 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 12:16:13 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 12:16:13 INFO  Closing debug server tcp://0.0.0.0:63422
+2024.12.14 17:41:01 INFO  Started: Metals version 1.4.1 in folders '/Users/Maddy/repos/scala/myfirstscalaseedproject' for client Visual Studio Code 1.95.3.
+2024.12.14 17:41:05 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.14 17:41:05 INFO  no build target found for /Users/Maddy/repos/scala/myfirstscalaseedproject/src/main/scala/WordCount.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Dec 14, 2024 5:41:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.12.14 17:41:06 INFO  Attempting to connect to the build server...
+2024.12.14 17:41:06 INFO  No running Bloop server found, starting one.
+2024.12.14 17:41:07 INFO  Starting compilation server
+2024.12.14 17:41:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 17:41:08 INFO  Attempting to connect to the build server...
+2024.12.14 17:41:08 INFO  Found a Bloop server running
+2024.12.14 17:41:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/project/.metals/bsp.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.14 17:41:08 INFO  time: Connected to build server in 2.11s
+2024.12.14 17:41:08 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 17:41:08 INFO  time: Imported build in 0.11s
+2024.12.14 17:41:08 INFO  running doctor check
+2024.12.14 17:41:08 INFO  java targets: myfirstscalaseedproject-build, root-test, root
+2024.12.14 17:41:14 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.14 17:41:15 INFO  time: indexed workspace in 7.08s
+2024.12.14 17:47:37 INFO  compiling myfirstscalaseedproject-build (1 scala source)
+2024.12.14 17:47:39 INFO  time: code lens generation in 1.08s
+2024.12.14 17:47:39 INFO  time: compiled myfirstscalaseedproject-build in 2.1s
+2024.12.14 17:50:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 17:50:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 17:50:45 INFO  Starting debug proxy for [WordCount]
+2024.12.14 17:50:45 INFO  Loaded expression compiler in 299 milliseconds
+2024.12.14 17:50:48 INFO  Loaded all sources and classes in 2 seconds
+2024.12.14 17:50:48 INFO  Initialized Scala 3 decoder in 2 milliseconds
+2024.12.14 17:50:48 INFO  Trying to attach to remote debuggee VM localhost:49792 .
+2024.12.14 17:50:48 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 17:50:49 INFO  Closing debug server tcp://0.0.0.0:49789
+2024.12.14 17:50:49 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 17:52:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 17:52:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 17:52:50 INFO  Starting debug proxy for [WordCount]
+2024.12.14 17:52:50 INFO  Loaded expression compiler in 1 millisecond
+2024.12.14 17:52:52 INFO  Loaded all sources and classes in 1 second
+2024.12.14 17:52:52 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2024.12.14 17:52:52 INFO  Trying to attach to remote debuggee VM localhost:49822 .
+2024.12.14 17:52:52 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 17:52:53 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 17:52:53 INFO  Closing debug server tcp://0.0.0.0:49819
+2024.12.14 17:54:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-server.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.12.14 17:54:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Maddy/repos/scala/myfirstscalaseedproject/.metals/dap-client.trace.json or /Users/Maddy/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.12.14 17:54:11 INFO  Starting debug proxy for [WordCount]
+2024.12.14 17:54:11 INFO  Loaded expression compiler in 1 millisecond
+2024.12.14 17:54:12 INFO  Loaded all sources and classes in 1 second
+2024.12.14 17:54:12 INFO  Initialized Scala 3 decoder in 1 millisecond
+2024.12.14 17:54:12 INFO  Trying to attach to remote debuggee VM localhost:49834 .
+2024.12.14 17:54:12 INFO  Attaching to debuggee VM succeeded.
+2024.12.14 17:54:13 INFO  Canceling debug proxy for [WordCount]
+2024.12.14 17:54:13 INFO  Closing debug server tcp://0.0.0.0:49831
+2024.12.14 18:10:18 INFO  Shutting down server
+2024.12.14 18:10:18 INFO  shutting down Metals
+2024.12.14 18:10:18 INFO  Shut down connection with build server.
+2024.12.14 18:10:18 INFO  Shut down connection with build server.
+2024.12.14 18:10:18 INFO  Exiting server
